@@ -26,14 +26,14 @@ search can be set.
 
 ### [rosenbrock]
 
-- a - defines the minimum of the function (if b > 0), i.e., xmin = a, ymin = a^2.
-- b - defines the steepness of the valley.
+- `a` - defines the minimum of the function (if b > 0), i.e., xmin = a, ymin = a^2.
+- `b` - defines the steepness of the valley.
 
 ### [search]
 
-- alpha - scale for the step in the direction of the steepest descent.
-- epochs - the number of gradient-descent steps to take.
-- multi\_trial\_count - the number of random of starting points to try (the total amount of steps is epochs * multi\_trial\_count).
+- `alpha` - scale for the step in the direction of the steepest descent.
+- `epochs` - the number of gradient-descent steps to take.
+- `multi\_trial\_count` - the number of random of starting points to try (the total amount of steps is epochs * multi\_trial\_count).
 
 
 ## Beyond Rosenbrock
