@@ -1,0 +1,8 @@
+[rosenbrock]
+a = 1.0
+b = 100.0
+
+[search]
+alpha = 0.0001
+epochs = 5000
+multi_trial_count = 100
