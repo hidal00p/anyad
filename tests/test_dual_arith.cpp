@@ -7,28 +7,28 @@ TEST(test_passive_dual_addition) {
   dual a = 2.0;
   dual b = 3.0;
 
-  CHECK((a+b).der == 0.0 && (a+b).val == a.val + b.val);
+  CHECK((a + b).der == 0.0 && (a + b).val == a.val + b.val);
 }
 
 TEST(test_active_dual_addition) {
   dual a = dual::active(2.0);
   dual b = 3.0;
 
-  CHECK((a+b).der == 1.0);
+  CHECK((a + b).der == 1.0);
 }
 
 TEST(test_passive_dual_product) {
   dual a = 2.0;
   dual b = 3.0;
 
-  CHECK((a*b).der == 0.0 && (a*b).val == a.val * b.val);
+  CHECK((a * b).der == 0.0 && (a * b).val == a.val * b.val);
 }
 
 TEST(test_active_dual_product) {
   dual a = dual::active(2.0);
   dual b = 3.0;
 
-  CHECK((a*b).der == b.val);
+  CHECK((a * b).der == b.val);
 }
 
 TEST(test_overloaded_sin) {
