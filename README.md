@@ -33,9 +33,9 @@ search can be set.
 
 - `alpha` - scale for the step in the direction of the steepest descent.
 - `epochs` - the number of gradient-descent steps to take.
-- `multi\_trial\_count` - the number of random of starting points to try (the total amount of steps is epochs * multi\_trial\_count).
+- `multi_trial_count` - the number of random of starting points to try (the total amount of steps is epochs * multi\_trial\_count).
 
 
 ## Beyond Rosenbrock
 
-...Implementatio of custom functions...
+...Implementation of custom functions...
