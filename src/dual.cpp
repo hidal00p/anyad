@@ -1,4 +1,5 @@
 #include "dual.hpp"
+#include <cmath>
 
 dual dual::active(double val) { return dual(val, 1.0); }
 dual dual::passive(double val) { return dual(val); }
