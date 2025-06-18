@@ -10,9 +10,17 @@ To build this project a C++ compiler that supports the C++17 standard (or above)
 Once those are available to your system:
 
 ```bash
+# Remove existing build directory if it exists
+rm -rf build
+
+# Create and enter build directory
 mkdir build && cd build
+
+# Configure and build the project
 cmake ..
 make
+
+# Run the program
 ./ad ../config.toml
 ```
 
